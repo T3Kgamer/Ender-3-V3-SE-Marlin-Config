@@ -30,7 +30,7 @@
 //
 // Differences
 //
-#define PLACEHOLDERNAME_AUTO_Z_OFFSET       PA4
+// #define PLACEHOLDERNAME_AUTO_Z_OFFSET       PA4 //Not sure what to define this as
 #define FIL_RUNOUT_PIN                      PC15
 #define SERVO0_PIN                          PC14
 #define Z_MIN_PROBE_PIN                     PC13
