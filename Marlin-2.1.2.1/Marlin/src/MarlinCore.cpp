@@ -56,6 +56,7 @@
 #include "gcode/queue.h"
 
 #include "feature/pause.h"
+#include "feature/autozoffset.h"
 #include "sd/cardreader.h"
 
 #include "lcd/marlinui.h"
