@@ -22,7 +22,7 @@
 #pragma once
 
 /**
- * Creality CR4NS200320C13 (GD32F303RET) as found in the Ender-3 V3 SE
+ * Creality CR4NS200320C13 (GD32F303RET6) as found in the Ender-3 V3 SE
  */
 
 #define BOARD_INFO_NAME      "Creality CR4NS"
@@ -30,7 +30,8 @@
 //
 // Differences
 //
-// #define PLACEHOLDERNAME_AUTO_Z_OFFSET       PA4
+// #define CLK_AUTO_Z_OFFSET       PA4
+// #define SDO_AUTO_Z_OFFSET       PC6
 #define FIL_RUNOUT_PIN                      PC15
 #define SERVO0_PIN                          PC14
 #define Z_MIN_PROBE_PIN                     PC13
